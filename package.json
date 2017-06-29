@@ -1,0 +1,21 @@
+{
+  "name": "webpack-module-manifest-plugin",
+  "version": "0.1.0",
+  "description": "Output manifest information about packaged modules.",
+  "main": "lib/index.js",
+  "author": "Josh Duck",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --ignore test.js --out-dir lib",
+    "start": "babel src --watch --ignore test.js --out-dir lib",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {}
+}
