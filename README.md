@@ -8,7 +8,7 @@ That's it!
 
 In `webpack.config.js`
 
-```json
+```javascript
 const ManifestPlugin = require("webpack-module-manifest-plugin");
 
 module.exports = {
